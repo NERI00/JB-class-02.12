@@ -33,7 +33,7 @@ const displayToDoListInTable = (todoList) => {
     let tableRows = ''
     for (let todoElement of todoList) {
 
-        if (todoElement.id === 1) {
+        if (todoElement.userId === 1) {
             tableRows += `
                     <tr>
                         <td>${todoElement.title}</td>
