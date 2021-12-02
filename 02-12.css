@@ -8,6 +8,7 @@ table {
 
 table, th, td {
     border: 2.5px solid black;
+    background-color: whitesmoke;
 }
 
 
@@ -28,5 +29,5 @@ textarea {
 
 body {
     background: rgb(136, 213, 203);
-    background: linear-gradient(90deg, rgba(136, 213, 203, 1) 43%, rgba(54, 179, 163, 1) 82%);
+    background: linear-gradient(90deg, rgba(136, 213, 203, 1) 25%, rgba(45, 170, 154, 1) 55%);
 }
