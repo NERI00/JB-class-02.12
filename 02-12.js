@@ -1,12 +1,8 @@
 const requestAllTodos = async () => {
-     await getTodosFromServer()
-    .then((todoList) => {
-        displayToDoListInTable(todoList)
-    })
-    .catch(() => {
-        alert("error")
-    })
-     
+    let todoList = await getTodosFromServer()
+
+    displayToDoListInTable(todoList)
+
 }
 
 const getTodosFromServer = () => {
@@ -21,7 +17,7 @@ const getTodosFromServer = () => {
                     const todoListFromJson = JSON.parse(ajax.responseText)
                     resolve(todoListFromJson)
 
-                }else{
+                } else {
                     reject("status is not Ok")
                 }
             }
