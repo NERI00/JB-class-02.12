@@ -1,19 +1,23 @@
-.main-div{
+.main-div {
     text-align: center;
 }
 
-#header{
+#header {
     text-align: center;
 }
 
-#code-box{
+#code-box {
     margin: 10px;
 }
 
-textarea{
+textarea {
     border-radius: 8px;
     text-align: center;
     resize: none;
-    height: 60px;
+    height: 58px;
 }
 
+body {
+    background: rgb(136, 213, 203);
+    background: linear-gradient(90deg, rgba(136, 213, 203, 1) 43%, rgba(54, 179, 163, 1) 82%);
+}
