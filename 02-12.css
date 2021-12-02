@@ -2,6 +2,15 @@
     text-align: center;
 }
 
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 2.5px solid black;
+}
+
+
 #header {
     text-align: center;
 }

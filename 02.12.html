@@ -12,13 +12,24 @@
 </head>
 
 <body>
-    <h3 class="p-3 shadow" id="header">Get information from server!</h3>
+    <h3 class="p-3 shadow" id="header">To Do List!</h3>
     <br>
     <div class="main-div">
-        <br>
-        <button id="button" class="btn btn-dark" onclick="requestAllTodos()">Get!</button>
+        <button id="button" class="btn btn-dark" onclick="requestAllTodos()">Get information!</button>
         <br><br>
-        <h5 id="outPut-text"></h5>
+        <table id="main-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>UserId</th>
+                    <th>comleted</th>
+                </tr>
+            </thead>
+            <tbody id="todo-table-body">
+            
+            </tbody>
+        </table>
+        
     </div>
 </body>
 <script src="02-12.js"></script>
